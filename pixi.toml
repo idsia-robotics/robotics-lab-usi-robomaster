@@ -9,10 +9,10 @@ version = "0.1.0"
 
 [dependencies]
 # ROS2 Humble
-python = "==3.10.13"
+python = ">=3.11.12,<3.12"
 ros-humble-desktop = ">=0.10.0,<0.11"
 colcon-common-extensions = ">=0.3.0,<0.4"
-compilers = ">=1.7.0,<2"
+compilers = ">=1.9.0,<2"
 make = ">=4.4.1,<5"
 
 # CoppeliaSim dependencies
@@ -20,33 +20,33 @@ cbor2 = ">=5.6.5,<6"
 pyzmq = ">=26.2.0,<27"
 
 # robomaster_sim dependencies
-spdlog = ">=1.11.0,<2"
-boost = ">=1.78.0,<2"
+spdlog = ">=1.14.1,<2"
+libboost = ">=1.86.0,<2"
 cmake = ">=3.26.3,<4"
-ffmpeg = ">=5.1.2,<6"
-libxslt = ">=1.1.37,<2"
+ffmpeg = ">=7.1.0,<8"
+libxslt = ">=1.1.39,<2"
 xmlschema = ">=3.4.5,<4"
 
 # RoboMasterSDK dependencies
-libopus = ">=1.4,<2"
+libopus = ">=1.5.2,<2"
 
 # robomaster_ros dependencies
 ros-humble-xacro = ">=2.0.8,<3"
-ros-humble-launch-xml = ">=1.0.4,<2"
+ros-humble-launch-xml = ">=1.0.7,<2"
 ros-humble-cv-bridge = ">=3.2.1,<4"
-ros-humble-launch-testing-ament-cmake = ">=1.0.4,<2"
+ros-humble-launch-testing-ament-cmake = ">=1.0.7,<2"
 ros-humble-robot-state-publisher = ">=3.0.2,<4"
-ros-humble-joint-state-publisher = ">=2.3.0,<3"
-ros-humble-joint-state-publisher-gui = ">=2.3.0,<3"
-ros-humble-joy = ">=3.1.0,<4"
+ros-humble-joint-state-publisher = ">=2.4.0,<3"
+ros-humble-joint-state-publisher-gui = ">=2.4.0,<3"
+ros-humble-joy = ">=3.3.0,<4"
 
 # robomaster_example dependencies
 transforms3d = ">=0.4.2,<0.5"
 
 [pypi-dependencies]
 # RoboMasterSDK
-robomaster = { git = "https://github.com/EliaCereda/RoboMaster-SDK.git", branch = "patch-2" }
-libmedia_codec = { git = "https://github.com/EliaCereda/RoboMaster-SDK.git", branch = "patch-2", subdirectory = "lib/libmedia_codec"}
+robomaster = { git = "https://github.com/EliaCereda/RoboMaster-SDK.git", branch = "patch-3" }
+libmedia_codec = { git = "https://github.com/EliaCereda/RoboMaster-SDK.git", branch = "patch-3", subdirectory = "lib/libmedia_codec"}
 
 # robomaster_ros dependencies
 numpy-quaternion = ">=2024.0.8, <2025"
