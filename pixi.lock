@@ -420,6 +420,7 @@ environments:
       - conda: https://conda.anaconda.org/robostack-staging/linux-64/ros-humble-fastcdr-1.0.24-np126py311h2c3b307_7.conda
       - conda: https://conda.anaconda.org/robostack-staging/linux-64/ros-humble-fastrtps-2.6.9-np126py311h2c3b307_7.conda
       - conda: https://conda.anaconda.org/robostack-staging/linux-64/ros-humble-fastrtps-cmake-module-2.2.2-np126py311h2c3b307_7.conda
+      - conda: https://conda.anaconda.org/robostack-staging/linux-64/ros-humble-ffmpeg-image-transport-msgs-1.1.2-np126py311hdfa6bdf_7.conda
       - conda: https://conda.anaconda.org/robostack-staging/linux-64/ros-humble-foonathan-memory-vendor-1.2.0-np126py311h2c3b307_7.conda
       - conda: https://conda.anaconda.org/robostack-staging/linux-64/ros-humble-geometry-msgs-4.2.4-np126py311h2c3b307_7.conda
       - conda: https://conda.anaconda.org/robostack-staging/linux-64/ros-humble-geometry2-0.25.10-np126py311h2c3b307_7.conda
@@ -703,6 +704,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/ec/ce/5ff57cde76feaa193978a28097edbb1c649e1f439182649eb9ecc7b86a03/MyQR-2.3.1.zip
       - pypi: https://files.pythonhosted.org/packages/12/cc/f4fe2c7ce68b92cbf5b2d379ca366e1edae38cccaad00f69f529b460c3ef/netaddr-1.3.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/53/6e/573d7c966ce8a1228324cda19d1b78cc65ad631ac70873e902f909701d4a/numpy_quaternion-2024.0.8-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/56/7d/f9f3dd8af59b2e610802b87bf109c57d52696f408385d0c6c79f70d90308/pyav-14.2.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: git+https://github.com/EliaCereda/RoboMaster-SDK.git?branch=patch-3#71dede9366a1521fb1a4cd988f5908ba88c04a53
       - pypi: git+https://github.com/EliaCereda/RoboMaster-SDK.git?subdirectory=lib%2Flibmedia_codec&branch=patch-3#71dede9366a1521fb1a4cd988f5908ba88c04a53
       - pypi: https://files.pythonhosted.org/packages/32/ea/564bacc26b676c06a00266a3f25fdfe91a9d9a2532ccea7ce6dd394541bc/scipy-1.15.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
@@ -1088,6 +1090,7 @@ environments:
       - conda: https://conda.anaconda.org/robostack-staging/osx-64/ros-humble-fastcdr-1.0.24-np126py311h8a2294f_7.conda
       - conda: https://conda.anaconda.org/robostack-staging/osx-64/ros-humble-fastrtps-2.6.9-np126py311h8a2294f_7.conda
       - conda: https://conda.anaconda.org/robostack-staging/osx-64/ros-humble-fastrtps-cmake-module-2.2.2-np126py311h8a2294f_7.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-64/ros-humble-ffmpeg-image-transport-msgs-1.1.2-np126py311hd69bdec_7.conda
       - conda: https://conda.anaconda.org/robostack-staging/osx-64/ros-humble-foonathan-memory-vendor-1.2.0-np126py311h8a2294f_7.conda
       - conda: https://conda.anaconda.org/robostack-staging/osx-64/ros-humble-geometry-msgs-4.2.4-np126py311h8a2294f_7.conda
       - conda: https://conda.anaconda.org/robostack-staging/osx-64/ros-humble-geometry2-0.25.10-np126py311h8a2294f_7.conda
@@ -1351,6 +1354,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/ec/ce/5ff57cde76feaa193978a28097edbb1c649e1f439182649eb9ecc7b86a03/MyQR-2.3.1.zip
       - pypi: https://files.pythonhosted.org/packages/12/cc/f4fe2c7ce68b92cbf5b2d379ca366e1edae38cccaad00f69f529b460c3ef/netaddr-1.3.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/dc/f3/f88fe604f0e57a65b2814cc55236fa2e4d1e72a187c8ee69c0ffcac2a10b/numpy_quaternion-2024.0.8-cp311-cp311-macosx_10_9_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/2e/d5/9af9121c54ff0050281ff34675b781f6a8c6a8c6a93e578118400d2e7e83/pyav-14.2.1-cp311-cp311-macosx_12_0_x86_64.whl
       - pypi: git+https://github.com/EliaCereda/RoboMaster-SDK.git?branch=patch-3#71dede9366a1521fb1a4cd988f5908ba88c04a53
       - pypi: git+https://github.com/EliaCereda/RoboMaster-SDK.git?subdirectory=lib%2Flibmedia_codec&branch=patch-3#71dede9366a1521fb1a4cd988f5908ba88c04a53
       - pypi: https://files.pythonhosted.org/packages/40/1f/bf0a5f338bda7c35c08b4ed0df797e7bafe8a78a97275e9f439aceb46193/scipy-1.15.2-cp311-cp311-macosx_10_13_x86_64.whl
@@ -1736,6 +1740,7 @@ environments:
       - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-fastcdr-1.0.24-np126py311h38cf310_6.conda
       - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-fastrtps-2.6.9-np126py311h38cf310_6.conda
       - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-fastrtps-cmake-module-2.2.2-np126py311h38cf310_6.conda
+      - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ffmpeg-image-transport-msgs-1.1.2-np126py311h8b30c37_6.conda
       - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-foonathan-memory-vendor-1.2.0-np126py311h38cf310_6.conda
       - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-geometry-msgs-4.2.4-np126py311h38cf310_6.conda
       - conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-geometry2-0.25.10-np126py311h38cf310_6.conda
@@ -2000,6 +2005,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/ec/ce/5ff57cde76feaa193978a28097edbb1c649e1f439182649eb9ecc7b86a03/MyQR-2.3.1.zip
       - pypi: https://files.pythonhosted.org/packages/12/cc/f4fe2c7ce68b92cbf5b2d379ca366e1edae38cccaad00f69f529b460c3ef/netaddr-1.3.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/e0/26/e6bcf53c7f4ab335b010bf46759ef79a1b9e63e642e24532ac730901c58c/numpy_quaternion-2024.0.8-cp311-cp311-macosx_11_0_arm64.whl
+      - pypi: https://files.pythonhosted.org/packages/2e/65/ecd3f34a3f7f6e92fe454f367f2e9c9cb5cb2b0e7667264e9af8e3a5cac9/pyav-14.2.1-cp311-cp311-macosx_12_0_arm64.whl
       - pypi: git+https://github.com/EliaCereda/RoboMaster-SDK.git?branch=patch-3#71dede9366a1521fb1a4cd988f5908ba88c04a53
       - pypi: git+https://github.com/EliaCereda/RoboMaster-SDK.git?subdirectory=lib%2Flibmedia_codec&branch=patch-3#71dede9366a1521fb1a4cd988f5908ba88c04a53
       - pypi: https://files.pythonhosted.org/packages/de/54/db126aad3874601048c2c20ae3d8a433dbfd7ba8381551e6f62606d9bd8e/scipy-1.15.2-cp311-cp311-macosx_12_0_arm64.whl
@@ -11682,6 +11688,21 @@ packages:
   purls: []
   size: 1153393
   timestamp: 1734363329678
+- pypi: https://files.pythonhosted.org/packages/2e/65/ecd3f34a3f7f6e92fe454f367f2e9c9cb5cb2b0e7667264e9af8e3a5cac9/pyav-14.2.1-cp311-cp311-macosx_12_0_arm64.whl
+  name: pyav
+  version: 14.2.1
+  sha256: 932f3a4b09ffe083718030d8765c27aca2ca04f99c70ebbdadbb6c5953469f02
+  requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/2e/d5/9af9121c54ff0050281ff34675b781f6a8c6a8c6a93e578118400d2e7e83/pyav-14.2.1-cp311-cp311-macosx_12_0_x86_64.whl
+  name: pyav
+  version: 14.2.1
+  sha256: 268e012a2e5014a806923a0d5485a7eb33fa37852716cc5abaf6726c2c8f0072
+  requires_python: '>=3.10'
+- pypi: https://files.pythonhosted.org/packages/56/7d/f9f3dd8af59b2e610802b87bf109c57d52696f408385d0c6c79f70d90308/pyav-14.2.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+  name: pyav
+  version: 14.2.1
+  sha256: 59600fd2c28b4f587c090a73ce200d186fe0106df17c1c6643f54c66cbeb8e22
+  requires_python: '>=3.10'
 - conda: https://conda.anaconda.org/conda-forge/noarch/pybind11-2.13.6-pyh1ec8472_2.conda
   sha256: 27f888492af3d5ab19553f263b0015bf3766a334668b5b3a79c7dc0416e603c1
   md5: 8088a5e7b2888c780738c3130f2a969d
@@ -17681,6 +17702,59 @@ packages:
   license: BSD-3-Clause
   size: 25343
   timestamp: 1736207243255
+- conda: https://conda.anaconda.org/robostack-staging/linux-64/ros-humble-ffmpeg-image-transport-msgs-1.1.2-np126py311hdfa6bdf_7.conda
+  sha256: a2b78a2f064df7b585aae7bd94b0764ba39873b895a92ee154dc7b7bc16b4b5f
+  md5: ae3c47b2d8a9392d3cadf157d2d3c20b
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-default-runtime
+  - ros-humble-std-msgs
+  - ros2-distro-mutex 0.6.* humble_*
+  - __glibc >=2.17,<3.0.a0
+  - libstdcxx >=13
+  - libgcc >=13
+  - ros2-distro-mutex >=0.6.0,<0.7.0a0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 82421
+  timestamp: 1738207263991
+- conda: https://conda.anaconda.org/robostack-staging/osx-64/ros-humble-ffmpeg-image-transport-msgs-1.1.2-np126py311hd69bdec_7.conda
+  sha256: 8ca8fa535b159492601f97cabd8e005828c6e40801e2933274d0d08f879d1167
+  md5: 4d8ad93e19f625a0c0626af7b57c9878
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-default-runtime
+  - ros-humble-std-msgs
+  - ros2-distro-mutex 0.6.* humble_*
+  - __osx >=10.14
+  - __osx >=10.13
+  - libcxx >=18
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  - ros2-distro-mutex >=0.6.0,<0.7.0a0
+  license: BSD-3-Clause
+  size: 78646
+  timestamp: 1738207287836
+- conda: https://conda.anaconda.org/robostack-staging/osx-arm64/ros-humble-ffmpeg-image-transport-msgs-1.1.2-np126py311h8b30c37_6.conda
+  sha256: a3fa9d603e3c6c1f013ad3809cd532f9b7eaa4f5a874d3fd2949cbdac74a55b8
+  md5: b9a8611e9f41c4b802ffe571c7575c69
+  depends:
+  - python
+  - ros-humble-ros-workspace
+  - ros-humble-rosidl-default-runtime
+  - ros-humble-std-msgs
+  - ros2-distro-mutex 0.6.* humble_*
+  - libcxx >=18
+  - __osx >=11.0
+  - ros2-distro-mutex >=0.6.0,<0.7.0a0
+  - numpy >=1.26.4,<2.0a0
+  - python_abi 3.11.* *_cp311
+  license: BSD-3-Clause
+  size: 78358
+  timestamp: 1738207299790
 - conda: https://conda.anaconda.org/robostack-staging/linux-64/ros-humble-foonathan-memory-vendor-1.2.0-np126py311h2c3b307_7.conda
   sha256: dc0c9b825ec3ef343657c88bfcdb2113973ffac58cc3424eee2cef22b17596fb
   md5: 009e93a727744a6c53f718fe8b318804

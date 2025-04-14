@@ -39,6 +39,7 @@ ros-humble-robot-state-publisher = ">=3.0.2,<4"
 ros-humble-joint-state-publisher = ">=2.4.0,<3"
 ros-humble-joint-state-publisher-gui = ">=2.4.0,<3"
 ros-humble-joy = ">=3.3.0,<4"
+ros-humble-ffmpeg-image-transport-msgs = ">=1.1.2,<2"
 
 # robomaster_example dependencies
 transforms3d = ">=0.4.2,<0.5"
@@ -50,6 +51,7 @@ libmedia_codec = { git = "https://github.com/EliaCereda/RoboMaster-SDK.git", bra
 
 # robomaster_ros dependencies
 numpy-quaternion = ">=2024.0.8, <2025"
+pyav = ">=14.2.1, <15"
 
 [activation]
 scripts = ["install/setup.sh"]
