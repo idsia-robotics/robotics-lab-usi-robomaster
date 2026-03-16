@@ -8,7 +8,7 @@ This guide provides step-by-step instructions for installing the RoboMaster Simu
 
 ### macOS
 
-1. Download CoppeliaSim for [Apple Silicon](https://downloads.coppeliarobotics.com/V4_7_0_rev4/CoppeliaSim_Edu_V4_7_0_rev4_macOS14_arm64.zip) or [Intel](https://downloads.coppeliarobotics.com/V4_7_0_rev4/CoppeliaSim_Edu_V4_7_0_rev4_macOS13_x86_64.zip)
+1. Download CoppeliaSim for [Apple Silicon](https://downloads.coppeliarobotics.com/V4_10_0_rev0/CoppeliaSim_Pro_V4_10_0_rev0_macOS15_arm64.zip) or [Intel](https://downloads.coppeliarobotics.com/V4_10_0_rev0/CoppeliaSim_Pro_V4_10_0_rev0_macOS13_x86_64.zip)
 2. Unzip and move to `/Applications/coppeliaSim.app`
 3. Right-click on `coppeliaSim.app` -> Open -> Open
 4. CoppeliaSim must be launched from the Terminal (this will become important later):
@@ -23,15 +23,15 @@ This guide provides step-by-step instructions for installing the RoboMaster Simu
 
 ### Ubuntu
 
-1. Download CoppeliaSim for [Ubuntu 22.04](https://downloads.coppeliarobotics.com/V4_7_0_rev4/CoppeliaSim_Edu_V4_7_0_rev4_Ubuntu22_04.tar.xz) or [Ubuntu 24.04](https://downloads.coppeliarobotics.com/V4_7_0_rev4/CoppeliaSim_Edu_V4_7_0_rev4_Ubuntu24_04.tar.xz)
+1. Download CoppeliaSim for [Ubuntu 22.04](https://downloads.coppeliarobotics.com/V4_10_0_rev0/CoppeliaSim_Pro_V4_10_0_rev0_Ubuntu22_04.tar.xz) or [Ubuntu 24.04](https://downloads.coppeliarobotics.com/V4_10_0_rev0/CoppeliaSim_Pro_V4_10_0_rev0_Ubuntu24_04.tar.xz)
 2. Extract CoppeliaSim in a directory of your choice, for example in your `COURSE_FOLDER`:
    ```bash
    cd <COURSE_FOLDER>
-   tar xvf CoppeliaSim_Edu_V4_7_0_rev4_Ubuntu<UBUNTU_VERSION>.tar.xz
+   tar xvf CoppeliaSim_Pro_V4_10_0_rev0_Ubuntu<UBUNTU_VERSION>.tar.xz
    ```
 3. CoppeliaSim must be launched from the Terminal (this will become important later):
    ```bash
-   <PATH_TO_COPPELIA>/CoppeliaSim_Edu_V4_7_0_rev4_Ubuntu<UBUNTU_VERSION>/coppeliaSim.sh
+   <PATH_TO_COPPELIA>/CoppeliaSim_Pro_V4_10_0_rev0_Ubuntu<UBUNTU_VERSION>/coppeliaSim.sh
    ```
 
 ---
