@@ -45,6 +45,11 @@ git clone git@github.com:idsia-robotics/robotics-lab-usi-robomaster.git --recurs
 ```
 
 **Ubuntu:** You need to customize the `COPPELIASIM_ROOT_DIR` in the `pixi.toml` of this repo to point to your CoppeliaSim installation.
+To something like: 
+```bash
+[activation.env]
+COPPELIASIM_ROOT_DIR = "<PATH_TO_COPPELIA>/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu<UBUNTU_VERSION>"
+```
 
 Now enter the repository, compile and install the packages:
 
@@ -54,6 +59,7 @@ pixi install
 pixi shell
 colcon build --symlink-install
 ```
+The last command can take some minutes (~2m 30s on a M1 MacBook Pro), please wait.
 
 You can launch CoppeliaSim with this command. This is important to ensure that Coppelia is started with the correct environment variables to see the ROS packages installed in this repo:
 

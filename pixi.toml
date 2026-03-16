@@ -46,7 +46,7 @@ transforms3d = ">=0.4.2,<0.5"
 [pypi-dependencies]
 # RoboMasterSDK
 robomaster = { git = "https://github.com/EliaCereda/RoboMaster-SDK.git", branch = "patch-2" }
-libmedia_codec = { git = "https://github.com/EliaCereda/RoboMaster-SDK.git", branch = "patch-2", subdirectory = "lib/libmedia_codec"}
+libmedia_codec = { git = "https://github.com/EliaCereda/RoboMaster-SDK.git", branch = "patch-2", subdirectory = "lib/libmedia_codec" }
 
 # robomaster_ros dependencies
 numpy-quaternion = ">=2024.0.8, <2025"
@@ -55,12 +55,12 @@ numpy-quaternion = ">=2024.0.8, <2025"
 scripts = ["install/setup.sh"]
 
 [activation.env]
-ROS_LOCALHOST_ONLY="1"
+ROS_LOCALHOST_ONLY = "1"
 
-COPPELIASIM_ROOT_DIR="/Applications/coppeliaSim.app/Contents/Resources"
+COPPELIASIM_ROOT_DIR = "/Applications/coppeliaSim.app/Contents/Resources"
 
 # CMake toolchain file to use only Pixi libraries in the build process
-CMAKE_TOOLCHAIN_FILE="$PIXI_PROJECT_ROOT/pixi-toolchain.cmake"
+CMAKE_TOOLCHAIN_FILE = "$PIXI_PROJECT_ROOT/pixi-toolchain.cmake"
 
 [target.osx-64.tasks]
 coppelia = "$COPPELIASIM_ROOT_DIR/../MacOS/coppeliaSim"
