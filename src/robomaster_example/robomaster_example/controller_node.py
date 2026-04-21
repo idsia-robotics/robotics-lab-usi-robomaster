@@ -49,10 +49,10 @@ class ControllerNode(Node):
     
     def pose3d_to_2d(self, pose3):
         quaternion = (
+            pose3.orientation.w,
             pose3.orientation.x,
             pose3.orientation.y,
-            pose3.orientation.z,
-            pose3.orientation.w
+            pose3.orientation.z
         )
         
         roll, pitch, yaw = euler_from_quaternion(quaternion)
