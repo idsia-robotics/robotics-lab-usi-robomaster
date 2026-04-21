@@ -27,11 +27,11 @@ This guide provides step-by-step instructions for installing the RoboMaster Simu
 2. Extract CoppeliaSim in a directory of your choice, for example in your `COURSE_FOLDER`:
    ```bash
    cd <COURSE_FOLDER>
-   tar xvf CoppeliaSim_Pro_V4_10_0_rev0_Ubuntu<UBUNTU_VERSION>.tar.xz
+   tar xvf CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu<UBUNTU_VERSION>.tar.xz
    ```
 3. CoppeliaSim must be launched from the Terminal (this will become important later):
    ```bash
-   <PATH_TO_COPPELIA>/CoppeliaSim_Pro_V4_10_0_rev0_Ubuntu<UBUNTU_VERSION>/coppeliaSim.sh
+   <PATH_TO_COPPELIA>/CoppeliaSim_Edu_V4_10_0_rev0_Ubuntu<UBUNTU_VERSION>/coppeliaSim.sh
    ```
 
 ---
