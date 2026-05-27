@@ -13,3 +13,8 @@
 	url = git@github.com:EliaCereda/simExtROS2.git
 	branch = "iron-4.6"
 
+[submodule "src/RoboMaster-SDK"]
+	path = src/RoboMaster-SDK
+	url = git@github.com:EliaCereda/RoboMaster-SDK.git
+	branch = "pixi"
+
