@@ -1,0 +1,18 @@
+<CycloneDDS>
+  <Domain>
+    <General>
+      <Interfaces>
+        <NetworkInterface address="100.125.141.118" presence_required="false" />
+        <NetworkInterface address="100.92.81.100" presence_required="false" />
+      </Interfaces>
+      <AllowMulticast>false</AllowMulticast>
+    </General>
+    <Discovery>
+      <Peers>
+        <Peer address="hades"/>  <!-- Tailscale IP of the other machine -->
+        <Peer address="macbook-pro-di-elia"/>  <!-- Tailscale IP of the other machine -->
+      </Peers>
+      <ParticipantIndex>auto</ParticipantIndex>
+    </Discovery>
+  </Domain>
+</CycloneDDS>
