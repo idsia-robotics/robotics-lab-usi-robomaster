@@ -2106,7 +2106,7 @@ environments:
       - conda: https://conda.anaconda.org/robostack-humble/osx-arm64/ros-humble-yaml-cpp-vendor-8.0.2-np2py312h50b1e4c_18.conda
       - conda: https://conda.anaconda.org/robostack-humble/osx-arm64/ros-humble-zstd-vendor-0.15.16-np2py312h50b1e4c_18.conda
       - conda: https://conda.anaconda.org/robostack-humble/osx-arm64/ros2-distro-mutex-0.9.0-humble_18.conda
-      - conda_source: rm_libmedia_codec[1192634d] @ src/RoboMaster-SDK/lib/libmedia_codec
+      - conda_source: rm_libmedia_codec[e4ea44be] @ src/RoboMaster-SDK/lib/libmedia_codec
       - conda_source: ros-humble-joy[59fb0601] @ src/joystick_drivers/joy/package.xml
       - pypi: https://files.pythonhosted.org/packages/b2/02/cf107b01494c19dc100f1d0b7ac3cc08666e96ba2d64db7626066cee895e/scipy-1.17.1-cp312-cp312-macosx_12_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/dc/9c/6a64269df4f032d883c5da72052850ef94fb79743b70606719c1ca579c79/numpy_quaternion-2024.0.13-cp312-cp312-macosx_11_0_arm64.whl
@@ -34949,15 +34949,15 @@ packages:
     - ros2-distro-mutex >=0.9.0,<0.10.0a0
   size: 2369
   timestamp: 1778812688309
-- conda_source: rm_libmedia_codec[1192634d] @ src/RoboMaster-SDK/lib/libmedia_codec
+- conda_source: rm_libmedia_codec[e4ea44be] @ src/RoboMaster-SDK/lib/libmedia_codec
   variants:
     python: 3.12.*
     target_platform: osx-arm64
   depends:
   - python >=3.10
   - libcxx >=22
-  - libopus >=1.6.1,<2.0a0
   - python_abi 3.12.* *_cp312
+  - libopus >=1.6.1,<2.0a0
   - ffmpeg >=8.1.1,<9.0a0
   build_packages:
   - conda: https://conda.anaconda.org/conda-forge/noarch/ca-certificates-2026.5.20-hbd8a1cb_0.conda
