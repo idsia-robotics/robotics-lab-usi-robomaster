@@ -1,6 +1,6 @@
 [workspace]
 authors = ["Elia Cereda <eliacereda@gmail.com>"]
-channels = ["robostack-staging", "conda-forge"]
+channels = ["conda-forge", "robostack-humble", "robostack-staging"]
 name = "robotics-lab-usi-robomaster"
 platforms = ["linux-64", "osx-64", "osx-arm64"]
 version = "0.1.0"
@@ -45,6 +45,9 @@ transforms3d = ">=0.4.2,<0.5"
 
 # RoboMaster-SDK
 rm_libmedia_codec = { path = "src/RoboMaster-SDK/lib/libmedia_codec" }
+
+[target.osx.dependencies]
+ros-humble-joy = { path = "src/joystick_drivers/joy/package.xml" }
 
 [pypi-dependencies]
 # RoboMaster-SDK

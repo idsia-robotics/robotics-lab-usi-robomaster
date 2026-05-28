@@ -18,3 +18,8 @@
 	url = git@github.com:EliaCereda/RoboMaster-SDK.git
 	branch = "pixi"
 
+[submodule "src/joystick_drivers"]
+	path = src/joystick_drivers
+	url = git@github.com:EliaCereda/joystick_drivers.git
+	branch = "ros2-macos"
+
